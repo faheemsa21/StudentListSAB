@@ -24,6 +24,5 @@ public class StudentList {
     for(Student stud:students){
         System.out.println(stud.getName());
     }
-     System.out.println("Hello world");
   }    
 }
