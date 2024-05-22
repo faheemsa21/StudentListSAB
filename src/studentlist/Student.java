@@ -9,8 +9,26 @@ package studentlist;
  * @author Sabahat
  */
 public class Student {
+
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getStudentID() {
+        return studentID;
+    }
+
+    public String getAddress() {
+        return address;
+    }
   
     private String name;
+    private String studentID;
+    private String address;
 
     public Student(String name){
         this.name = name;
